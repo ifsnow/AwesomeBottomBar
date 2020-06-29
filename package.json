@@ -1,0 +1,48 @@
+{
+  "name": "AwesomeBottomBar",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "flow": "flow",
+    "flow-stop": "flow stop",
+    "lint": "eslint --quiet --ext .js src/",
+    "lint-all": "eslint --ext .js src/"
+  },
+  "dependencies": {
+    "react": "16.11.0",
+    "react-native": "0.62.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.10.3",
+    "@babel/plugin-proposal-decorators": "7.10.3",
+    "@babel/runtime": "7.10.3",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "24.9.0",
+    "babel-plugin-root-import": "6.5.0",
+    "babel-plugin-transform-react-remove-prop-types": "0.4.24",
+    "babel-plugin-transform-remove-console": "6.9.4",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-import-resolver-babel-plugin-root-import": "1.1.1",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-flowtype": "5.1.3",
+    "eslint-plugin-import": "2.21.2",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-react": "7.20.0",
+    "eslint-plugin-react-hooks": "4.0.4",
+    "eslint-plugin-react-native": "3.8.1",
+    "flow-bin": "0.114.0",
+    "hermes-engine": "0.4.1",
+    "jest": "24.9.0",
+    "jetifier": "1.6.6",
+    "metro-react-native-babel-preset": "0.59.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
